@@ -7,8 +7,8 @@ public class Main {
         int a;
         do{
             a = scan.nextInt();
-            System.out.println(a);
-        }while(a!=0)
-        
+            if(a%2==0)System.out.println(a);
+        }while(a!=0);
+
     }
 }
